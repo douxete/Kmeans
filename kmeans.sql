@@ -18,5 +18,4 @@ CREATE TABLE tblIteration1 as
 
 SELECT * from tblIteration1;
 
-SELECT distinct(Cluster_In) as NewC,
-AVG(x) as NewCx, AVG(y) as NewCy FROM tblIteration1 GROUP BY Cluster_In;
+SELECT distinct(Cluster_In) as NewC,AVG(x) as NewCx, AVG(y) as NewCy FROM tblIteration1 GROUP BY Cluster_In;
